@@ -1,0 +1,22 @@
+.faq-page {
+  text-align: center;
+  color: #e6e6e6;
+  padding: 20px;
+}
+
+.faq-item {
+  background-color: #2c2c2c;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  color: #f2a365;
+}
+
+.faq-page .faq-item p {
+  color: #ffffff !important; /* Ensure the answer text is white */
+}

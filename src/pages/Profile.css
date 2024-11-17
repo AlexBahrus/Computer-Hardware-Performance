@@ -1,0 +1,53 @@
+.cardContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.profileCard {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profileItem img {
+  width: 100px; /* Lebar gambar */
+  height: 100px; /* Tinggi gambar */
+  object-fit: cover; /* Menjaga proporsi gambar */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  margin-bottom: 16px; /* Jarak antara gambar dan teks */
+  border: 2px solid #ddd; /* Menambahkan border untuk estetika */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.profileItem .name {
+  font-size: 1.5rem; /* Ukuran font untuk nama */
+  font-weight: 700; /* Tebal font */
+  margin-bottom: 8px; /* Jarak antara nama dan username */
+  color: #fff; /* Warna teks */
+}
+
+.profileItem .username {
+  font-size: 1.2rem; /* Ukuran font untuk username */
+  color: rgba(223, 229, 235, 0.7); /* Warna abu-abu transparan */
+}
+
+.profileItem p {
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  margin: 4px 0; /* Margin antar teks */
+}
+
+.info {
+  margin-top: 16px; /* Jarak dari teks sebelumnya */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (max-width: 800px) {
+  .cardContainer {
+      flex-direction: column;
+  }
+}

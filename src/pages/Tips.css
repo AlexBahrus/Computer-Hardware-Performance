@@ -1,0 +1,29 @@
+.tips-page {
+  text-align: center;
+  color: #e6e6e6;
+  padding: 20px;
+}
+
+.tips-page h2 {
+  color: #ffffff; /* Ubah warna teks judul menjadi putih */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan teks */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.tips-page ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2); /* Latar belakang transparan */
+  padding: 15px; /* Tambahkan padding untuk jarak dalam */
+  border-radius: 8px; /* Tambahkan sudut melengkung */
+}
+
+.tips-page li {
+  margin-bottom: 10px;
+  color: #e6e6e6;
+  line-height: 1.6;
+}

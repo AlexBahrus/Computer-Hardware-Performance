@@ -1,0 +1,47 @@
+/* Reset default padding dan margin untuk elemen p */
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Gaya untuk judul bagian Home */
+#home {
+  padding: 20px 0; /* Padding atas dan bawah */
+  color: white; /* Warna teks putih */
+  font-size: 24px; /* Ukuran font */
+  font-weight: bolder; /* Ketebalan font */
+  font-family: Verdana; /* Jenis font */
+  text-align: center; /* Rata tengah */
+}
+
+/* Gaya untuk loading indicator */
+#loading {
+  display: flex; /* Menampilkan elemen dalam flexbox */
+  align-items: center; /* Menyelaraskan elemen secara vertikal */
+  flex-direction: column; /* Mengatur arah elemen secara kolom */
+}
+
+/* Container untuk kartu */
+.card-container {
+  display: flex; /* Menampilkan kartu dalam flexbox */
+  flex-wrap: wrap; /* Mengizinkan kartu berpindah ke baris berikutnya jika tidak cukup ruang */
+  justify-content: center; /* Menyelaraskan kartu ke tengah */
+  gap: 20px; /* Jarak antar kartu */
+}
+
+/* Gaya untuk setiap kartu */
+.card-small {
+  border: 1px solid #ddd; /* Border abu-abu muda */
+  border-radius: 8px; /* Sudut melingkar */
+  overflow: hidden; /* Memastikan gambar tidak meluber */
+  width: 150px; /* Lebar kartu */
+  text-align: center; /* Rata tengah untuk teks */
+  transition: transform 0.2s; /* Transisi untuk efek hover */
+  background-color: #2e2e2e; /* Warna latar belakang */
+  color: white; /* Warna teks kartu */
+}
+
+/* Efek saat hover pada kartu */
+.card-small:hover {
+  transform: scale(1.05); /* Zoom saat hover */
+}

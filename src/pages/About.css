@@ -1,0 +1,39 @@
+.descMain {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  
+  .App-logo {
+    display: flex;
+    height: 50vmin;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  #descAbout {
+    display: flex;
+    color: rgb(241, 238, 238);
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+  }

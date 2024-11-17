@@ -1,0 +1,117 @@
+/* App.css */
+
+body {
+  background-color: rgb(28, 28, 40);
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+}
+
+#titleGroup {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  margin: auto;
+}
+
+header h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 6px 0;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid black;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 5px 0;
+  transition: color 0.3s;
+}
+
+.iconWrapper:hover {
+  color: #ccc;
+}
+
+.icon {
+  color: white;
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.active {
+  color: rgb(65, 65, 233);
+}
+
+/* Scroll bar styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4141e9;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4141e9;
+}
+
+::-webkit-scrollbar-track {
+  background: #24233b;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
+.contentContainer {
+  color: white;  
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contentContainer h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contentContainer p {
+  font-size: 14px;
+  line-height: 1.6;
+}

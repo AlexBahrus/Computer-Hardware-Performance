@@ -1,0 +1,67 @@
+a{text-decoration:none}
+.showDetailPart {
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+.detailPartmain {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  
+  .photoPartd {
+    width: 90px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 12px;
+    margin-left: 40px;
+  }
+
+  #modelPartd {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+    
+  
+  #titlePartd {
+    color: rgb(175, 159, 159);
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  } 
+
+  #detailPartd {
+    color: rgb(241, 238, 238);
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+  } 
+
+  #MoreButton {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -5px;
+    cursor: pointer;
+  }
+  #BackButton {
+    margin-left: 35px;
+    background: none;
+    margin-top: 40px;
+    border: none;
+    color:  rgb(164, 164, 255);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+

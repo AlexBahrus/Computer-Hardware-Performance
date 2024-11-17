@@ -1,0 +1,48 @@
+.cardPart {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 20px 0 20px 20px;
+  }
+
+  
+.cardPart:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem rgb(0, 0, 255);
+  }
+
+  .photoPart {
+    width: 90px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 12px;
+  }
+  
+  .descriptionPart {
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #modelPart {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+    padding-right: 20px;
+  }
+  
+  #titlePart {
+    color: rgb(199, 199, 199);
+    font-family: Verdana;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #rankPart{
+  color: rgb(164, 164, 255);
+  font-family: Verdana;
+  font-size: 18px;
+  margin-top: 5px;
+  }
